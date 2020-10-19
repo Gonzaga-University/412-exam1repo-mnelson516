@@ -16,6 +16,8 @@ class Adder():
     def getDivision(self):
         return self.val2 / self.val1
 
+    def getSub(self):
+        return self.val2 - self.val1
 
 if __name__ == "__main__":
     print("Starting program")
@@ -26,5 +28,7 @@ if __name__ == "__main__":
     print(adder.getMult())
 
     print(adder.getDivision())
+
+    print(adder.getSub())
 
     print("Done with program")
