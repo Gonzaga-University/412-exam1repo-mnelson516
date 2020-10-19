@@ -12,6 +12,9 @@ class Adder():
 
     def getMult(self):
         return self.val1 * self.val2
+    
+    def getDivision(self):
+        return self.val2 / self.val1
 
 
 if __name__ == "__main__":
@@ -21,5 +24,7 @@ if __name__ == "__main__":
     print(adder.getSum())
 
     print(adder.getMult())
+
+    print(adder.getDivision())
 
     print("Done with program")
